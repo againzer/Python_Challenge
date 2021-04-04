@@ -5,8 +5,6 @@ import os
 # Module for reading CSV files
 import csv
 
-from statistics import mean
-
 csvpath = os.path.join('Resources', 'budget_data.csv')
 
 # Method 2: Improved Reading using CSV module
@@ -58,11 +56,13 @@ with open(csvpath) as csvfile:
 
     
     #how do you exclude the first record its pulling my net change higher
-    avg_change = sum(net_amounts_list)/len(net_amounts_list)
+    avg_change = round(sum(net_amounts_list)/len(net_amounts_list),2)
 
 
 
     output_data = (
+        f'Financial Analysis\n'
+        f'----------------------------\n'
         f'Total Months: {count_rows}\n'
         f'Total: {total}\n'
         f'Average Change: {avg_change}\n'
