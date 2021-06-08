@@ -70,11 +70,7 @@
 
 * In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-## Hints and Considerations
 
-* Consider what we've learned so far. To date, we've learned how to import modules like `csv`; to read and write files in various formats; to store contents in variables, lists, and dictionaries; to iterate through basic data structures; and to debug along the way. Using what we've learned, try to break down your tasks into discrete mini-objectives. This will be a _much_ better course of action than spending all your time looking for a solution on Stack Overflow.
-
-* As you will discover, for some of these challenges, the datasets are quite large. This was done purposefully, as it showcases one of the limits of Excel-based analysis. While our first instinct, as data analysts, is often to head straight into Excel, creating scripts in Python can provide us with more robust options for handling "big data".
 
 * Write one script for each dataset provided. Run your script separately to make sure that the code works for its respective dataset.
 
